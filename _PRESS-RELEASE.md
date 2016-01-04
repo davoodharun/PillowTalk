@@ -1,4 +1,4 @@
-# Project Name #
+# PillowTalk #
 
 <!-- 
 > This material was originally posted [here](http://www.quora.com/What-is-Amazons-approach-to-product-development-and-product-management). It is reproduced here for posterities sake.
@@ -17,28 +17,38 @@ Once the project moves into development, the press release can be used as a touc
  -->
  
 ## Heading ##
-  > Name the product in a way the reader (i.e. your target customers) will understand.
+  > Connecting with others on the astral plane.
 
 ## Sub-Heading ##
-  > Describe who the market for the product is and what benefit they get. One sentence only underneath the title.
+  > Become a pioneer of your subconcious mind.
 
 ## Summary ##
-  > Give a summary of the product and the benefit. Assume the reader will not read anything else so make this paragraph good.
+  > Delve into the depths of your subconcious mind by keeping track of your dreams and exploring what they mean. A user can submit a summary of a dream linked with specific tags related to strong motifs within the dream or actual events in their waking life. Users can also see how or if other people around the world are dreaming about similar topics. Users can comment and interact with each other to discuss/explore their dream states. This application is not limited to just dream discussion, but can also be used to discuss problems and issues in your waking life. 
 
 ## Problem ##
-  > Describe the problem your product solves.
+  > A lack of an efficient way to keep track of your dreams while also connecting with others to explore what they mean and how they might relate to your waking life. 
+  > Keeping a log of your dreams greatly helps improve your ability to recall dreams after you wake up. This can help:
+  > 1). Enhance ones creativity to solve problems in the real world
+  >     In a dream state your brain is not bound by the same logical rules that it has during waking life. When you are dreaming you are able to create new connections and different associations i.e.  you are able to create new neural pathways in your brain.
+  > 2). Increase Self-Awareness
+  >    Improving dream recall can greatly help provide insight into your emotional, physical, and metal health.
+  > 3). Become more aware within your dreams (LUCID DREAMING)
+  >     Improving dream recall can help you focus on becoming more lucid within your dream state, allowing you to stay asleep but be more concious of what is going on around you within you dreamscape. 
+  > 4). Explore/Adventure
+  >     You dreams are only bound by your imagination.
 
 ## Solution ##
-  > Describe how your product elegantly solves the problem.
+  > A user can submit a summary of a dream linked with specific tags related to strong motifs within the dream or actual events in their waking life. Users can also see how or if other people around the world are dreaming about similar topics. Users can also comment and interact with each other to discuss/explore their dream states.
 
 ## Quote from You ##
-  > A quote from a spokesperson in your company.
+  > PillowTalk helps you become a pioneer of your own subconcious mind.
 
 ## How to Get Started ##
-  > Describe how easy it is to get started.
+  > Sign up, login, and start connecting with others!
 
 ## Customer Quote ##
-  > Provide a quote from a hypothetical customer that describes how they experienced the benefit.
+  > 'I was having trouble coping with stress within my work life. PillowTalk showed me that I was not alone by allowing me to connect with others having difficulty coping with similar situations.'
 
 ## Closing and Call to Action ##
-  > Wrap it up and give pointers where the reader should go next.
+  > PillowTalk helps you become a pioneer of your own subconcious mind by helping you to cope and explore things that you might not be able to in your waking life
+  > file:///home/harun/Downloads/9123-9431-3-PB.pdf
