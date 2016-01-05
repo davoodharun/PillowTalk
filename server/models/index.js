@@ -23,6 +23,12 @@ module.exports = {
         db.query(queryStrTags, [paramsTag[i]], function(err,results){
           callback(err, results)
         })
+        var paramsTagsMessages = [paramsTag[i], paramsLog[1]]
+        var queryTagsMessages = "insert into tagsMessages(tagid, messageid) \
+                                    value ((select id from tags where tagname = ? limit 1), (select id from logs where title = ? limit 1))";
+        db.query(queryTagsMessages, paramsTagsMessages, function(err,results){
+          callback(err, results)
+        })
       }
 
     }
