@@ -1,4 +1,8 @@
-angular.module('pillowtalk', ['ngRoute', 'pillowtalk.makeLog'])
+angular.module('pillowtalk', [
+  'pillowtalk.makeLog',
+  'pillowtalk.services',
+  'ngRoute'
+])
 .config(function ($routeProvider, $httpProvider){
   $routeProvider
   .when('/makeLog', {

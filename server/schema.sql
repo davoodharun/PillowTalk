@@ -10,7 +10,8 @@ CREATE TABLE users (
 
 CREATE TABLE logs (
   id int NOT NULL AUTO_INCREMENT,
-  text MEDIUMTEXT NOT NULL,
+  logtext MEDIUMTEXT NOT NULL,
+  title varchar(200) NOT NULL,
   userid int NOT NULL,
   FOREIGN KEY (userid) REFERENCES users (id),
   PRIMARY KEY (id)
