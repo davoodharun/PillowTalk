@@ -1,0 +1,16 @@
+{
+  "name": "pillowtalk",
+  "version": "1.0.0",
+  "authors": "Harun Davood",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "client/lib"
+  ],
+  "dependencies": {
+    "angular": "latest",
+    "angular-route": "latest",
+    "angular-mocks": "latest"
+  }
+}

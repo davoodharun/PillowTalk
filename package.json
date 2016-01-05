@@ -1,0 +1,30 @@
+{
+  "name": "pillowtalk",
+  "version": "1.0.0",
+  "description": "Most Viable Product project for Hack Reactor cirriculum",
+  "main": "client/index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": 'client/index.html'
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/puzzlehe4d/2015-11-mvp.git"
+  },
+  "dependencies": {
+    "bcrypt-nodejs": "0.0.3",
+    "body-parser": "^1.4.3",
+    "express": "^4.4.5",
+    "jwt-simple": "^0.2.0",
+    "morgan": "^1.1.1",
+    "mysql": "^2.10.0",
+    "q": "^1.4.1",
+    "request": "^2.36.0"
+  },
+  "author": "Harun Davood",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/puzzlehe4d/2015-11-mvp/issues"
+  },
+  "homepage": "https://github.com/puzzlehe4d/2015-11-mvp#readme"
+}
