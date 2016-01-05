@@ -5,7 +5,8 @@ USE pillowtalk;
 CREATE TABLE users (
   id int NOT NULL AUTO_INCREMENT,
   username  varchar(40)   NOT NULL,
-  PRIMARY KEY (id)
+  PRIMARY KEY (id),
+  UNIQUE (username)
 );
 
 CREATE TABLE logs (
@@ -20,7 +21,8 @@ CREATE TABLE logs (
 CREATE TABLE tags (
   id int NOT NULL AUTO_INCREMENT,
   tagname  varchar(40)   NOT NULL,
-  PRIMARY KEY (ID)
+  PRIMARY KEY (ID),
+  UNIQUE (tagname)
 );
 
 CREATE TABLE tagsMessages (

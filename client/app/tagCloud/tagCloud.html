@@ -1,0 +1,9 @@
+<div id='createEntry' ng-init="getTags()">
+<h1>Tag Cloud</h1><br>
+  <div ng-repeat="tags in display">
+
+  <a href="#/tagsByLogs/{{tags['id']}}-{{tags['tagname']}}">{{tags['tagname']}}</a>
+
+  </div>
+
+</div>

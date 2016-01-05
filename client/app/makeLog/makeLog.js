@@ -24,6 +24,10 @@ angular.module('pillowtalk.makeLog', [
       console.log(response)
 
     })
+    $scope.user = '';
+    $scope.title = '';
+    $scope.logtext = '';
+    $scope.tags = '';
   }
 
 });

@@ -24,3 +24,29 @@ angular.module('pillowtalk.services', [])
     addLog: addLog
   }
 })
+
+.factory('Tags', function($http){
+  var getTags = function (){
+    return $http({
+      method: 'GET',
+      url: 'api/tag'
+    })
+  }
+
+  return {
+    getTags: getTags
+  }
+})
+.factory('ShowLog', function($http){
+  var showLog = function (tagid){
+    console.log(tagid)
+    return $http({
+      method: 'GET',
+      url: 'api/tagsByLogs/' + tagid
+    })
+  }
+
+  return {
+    showLog: showLog
+  }
+})
