@@ -1,10 +1,8 @@
 var express = require('express');
 var fs = require('fs');
-var path = require('path');
-
+var sql = require('mysql')
 var app = express();
-
-
+var db = require('./db');
 
 // // configure our server with all the middleware and routing
 require('./config/middleware.js')(app, express);
