@@ -10,8 +10,7 @@ module.exports = {
       })
     },
     post: function(req,res){
-      var params = [req.body.text, req.body.title, req.body.user]
-      console.log(params)
+      var params = [req.body.text, req.body.title, req.body.user, req.body.tags]
       models.logs.post(params, function(err){
         if(err){console.log(err)}
         console.log('successful post')
