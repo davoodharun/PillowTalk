@@ -4,7 +4,6 @@ angular.module('pillowtalk.showLog', [
   'ngRoute'
 ])
 .controller('showLogController', function($scope, $routeParams, ShowLog){
-  console.log($routeParams)
     $scope.tagid = $routeParams.tagId.split('-')[0];
     $scope.tagname = $routeParams.tagId.split('-')[1];
     $scope.logs = [];

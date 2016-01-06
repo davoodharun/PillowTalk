@@ -3,6 +3,7 @@ angular.module('pillowtalk', [
   'pillowtalk.services',
   'pillowtalk.tagCloud',
   'pillowtalk.showLog',
+  'angular-jqcloud',
   'ngRoute'
 ])
 .config(function ($routeProvider, $httpProvider){
@@ -21,7 +22,7 @@ angular.module('pillowtalk', [
   })
   .when('/', {
       templateUrl: 'app/home.html',
-      controller: 'showLogController'
+      controller: ''
   });
 
 

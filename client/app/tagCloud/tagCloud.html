@@ -1,9 +1,14 @@
 <div id='createEntry' ng-init="getTags()">
 <h1>Tag Cloud</h1><br>
-  <div ng-repeat="tags in display">
+
+<jqcloud words="words" width="500" height="350" steps="7">
+  {{words}}
+</jqcloud>
+
+  <!-- <div ng-repeat="tags in display">
 
   <a href="#/tagsByLogs/{{tags['id']}}-{{tags['tagname']}}">{{tags['tagname']}}</a>
 
-  </div>
+  </div> -->
 
 </div>
