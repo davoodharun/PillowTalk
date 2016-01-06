@@ -1,6 +1,7 @@
 angular.module('pillowtalk.makeLog', [
   'pillowtalk.makeLog',
   'pillowtalk.services',
+  'ngTagsInput',
   'ngRoute'
 ])
 .controller('makeLogController', function($scope, Logs){
@@ -13,6 +14,12 @@ angular.module('pillowtalk.makeLog', [
   }
 
   $scope.postLog = function(){
+    var tags = [];
+    for(var i = 0;i<$scope.tags.length;i++){
+      tags.push($scope.tags[i].text)
+    }
+
+    $scope.tags = tags.toString();
     var data = {
     user: $scope.user,
     title: $scope.title,

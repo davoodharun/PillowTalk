@@ -1,9 +1,9 @@
 <div id='createEntry' ng-init="getTags()">
-<h1>Logs with {{tagname}}</h1><br>
+<h1 class='bg-primary'>Logs with <kbd>{{tagname}}</kbd></h1><br>
 <div ng-repeat="log in logs">
-{{log.title}}<br>
-{{log.logtext}}<br>
-by: {{log.userid}} <p>
+<h3>{{log.title}}</h3>
+<h5 class='text-primary'>{{log.logtext}}</h5>
+<h4>by: {{log.userid}}</h4>
 </div>
 
 

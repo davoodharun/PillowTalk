@@ -4,7 +4,9 @@
         User: <input type="text" class='form-control' style = 'width: 80%' placeholder='Enter your username' ng-model='user' size='50'> <p>
         Title: <input type="text" class='form-control' style = 'width: 80%' placeholder='Enter the title of your post..' ng-model='title' size='50'> <p>
         Text: <textarea type="text" class='form-control' style = 'width: 80%' placeholder='Enter the text of your post here..' ng-model='logtext' rows="10" cols="50"></textarea> <p>
-        tags: <input type="text" class='form-control' style = 'width: 80%'  placeholder='input your tags here (separated by commas) ..' ng-model='tags' size="50"><p>
+        tags: <tags-input ng-model="tags" type="text" style = 'width: 80%'  placeholder='input your tags here (separated by commas) ..' ></tags-input>
+
+        <!-- <input type="text" class='form-control' style = 'width: 80%'  placeholder='input your tags here (separated by commas) ..' ng-model='tags' size="50"><p> -->
         <button class='btn btn-sm btn-success' type="submit">SUBMIT</button>
       </form>
 

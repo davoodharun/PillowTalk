@@ -4,6 +4,7 @@ angular.module('pillowtalk', [
   'pillowtalk.tagCloud',
   'pillowtalk.showLog',
   'angular-jqcloud',
+  'ngTagsInput',
   'ngRoute'
 ])
 .config(function ($routeProvider, $httpProvider){

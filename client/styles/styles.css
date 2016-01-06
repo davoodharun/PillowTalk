@@ -1,8 +1,4 @@
 /* unvisited link */
-#createEntry{
-  margin-left:auto;
-  margin-right:auto;
-}
 a:link {
     color: red;
     text-decoration: none;
@@ -27,7 +23,7 @@ a:active {
 }
 
 .centerDiv {
-    margin-left:auto;
-    margin-right:auto;
-    position:absolute;
+    margin: auto;
+    width: 60%;
+    padding: 10px;
 }
