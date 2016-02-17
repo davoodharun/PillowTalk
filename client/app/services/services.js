@@ -39,14 +39,22 @@ angular.module('pillowtalk.services', [])
 })
 .factory('ShowLog', function($http){
   var showLog = function (tagid){
-    console.log(tagid)
     return $http({
       method: 'GET',
       url: 'api/tagsByLogs/' + tagid
     })
   }
 
+  var getUsername = function (userId){
+
+    return $http({
+      method: 'GET',
+      url: 'api/users/' + userId
+    })
+  }
+
   return {
-    showLog: showLog
+    showLog: showLog,
+    getUsername: getUsername
   }
 })

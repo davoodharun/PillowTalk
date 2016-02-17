@@ -35,6 +35,16 @@ module.exports = {
           res.json(results)
       })
     }
+  },
+
+  users: {
+    get: function(req,res){
+      models.getUsername.get(req.params.id, function(err,results){
+        if(err){console.log(err)}
+
+          res.json(results)
+      })
+    }
   }
 
 

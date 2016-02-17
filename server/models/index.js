@@ -64,10 +64,20 @@ module.exports = {
 
   tagsByLogs: {
      get: function(params, callback){
-      console.log('before', params)
+
       var queryStr = 'SELECT logs.* FROM logs INNER JOIN tagsMessages ON logs.id = tagsMessages.messageid WHERE tagsMessages.tagid = ?';
       db.query(queryStr, params, function(err,results){
-        console.log(results)
+        callback(err, results)
+      })
+    }
+  },
+
+  getUsername: {
+     get: function(params, callback){
+      console.log(params)
+      var queryStr = 'SELECT users.username from users where users.id = ?';
+      db.query(queryStr, [params], function(err,results){
+        console.log('users',results)
         callback(err, results)
       })
     }

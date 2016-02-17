@@ -17,6 +17,7 @@ var controller = require('./controllers');
 app.use("/", router);
 router.get('/api/logs', controller.logs.get)
 router.get('/api/tag', controller.tags.get)
+router.get('/api/users/:id', controller.users.get)
 router.get('/api/tagsByLogs/:id', controller.tagsByLogs.get)
 router.post('/api/logs', controller.logs.post)
 
